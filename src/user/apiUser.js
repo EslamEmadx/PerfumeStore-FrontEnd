@@ -42,7 +42,6 @@ export const updateUser = (user, next) => {
   }
 };
 
-// apiUser.js
 export const getUserPurchaseHistory = (userId, token) => {
   return fetch(`${API}/users/${userId}/history`, {
     method: 'GET',
